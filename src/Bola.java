@@ -3,6 +3,7 @@ public class Bola implements Bangun{
     private double Radius;
 
     public Bola(int Radius){
+        this.Radius = Radius;
         this.hitungVolume();
         this.hitungLuasPermukaan();
     }
